@@ -65,7 +65,7 @@ class Queue
                 cout<<"Queue is already empty";
                 return 0;
             }
-            esle if(front==rear)
+            else if(front==rear)
             {
                 int a = arr[front];
                 arr[front]=0;
@@ -74,11 +74,45 @@ class Queue
             }
             else
             {
-                a = arr[front];
+                int a = arr[front];
                 arr[front]=0;
                 front++;
                 return a;
             }
             
         }
+};
+
+int main()
+{
+    int choice = 0,num;
+    Queue q;
+    while(choice!=5)
+    {
+        cout<<"1.Is Empty"<<endl;
+        cout<<"2.Is Full"<<endl;
+        cout<<"3.Enter into the Queue"<<endl;
+        cout<<"4.Delete from Queue"<<endl;
+        cout<<"5.Exit"<<endl<<endl;
+
+        cout<<"Choice:";
+        cin>>choice;
+
+        switch(choice)
+        {
+            case 1 :cout<<q.isEmpty()<<endl;
+                    break;
+            case 2 :cout<<q.isFull()<<endl;
+                    break;
+            case 3 :cin>>num;
+                    q.enqueue(num);
+                    break;
+            case 4 :cout<<q.dequeue()<<endl;
+                    break;
+            case 5 :cout<<"Exiting...";
+                    break;
+            default:cout<<"Invalid choice!";
+        }
+    }
+    return 0;
 }
