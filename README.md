@@ -11,5 +11,12 @@
 ### Queues
 - Linear Queue (Using array) {Insert, Remove, Display, IsEmpty, IsFull}
 
+### Sorting
+- Selection Sort (Iterative)
+- Bubble Sort (Iterative)
+- Bubble Sort (Recursive)
+- Insertion Sort (Iterative)
+- Insertion Sort (Recursive)
+
 ### Linked List
 - Linked List (Finding the nth-node from the end of the list)
