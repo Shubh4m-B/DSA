@@ -1,6 +1,6 @@
 <img src="Header.jpg">
 
-## Topics/Problems Done
+# Topics/Problems Done
 
 ### Arrays
 
