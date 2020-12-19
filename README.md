@@ -11,13 +11,19 @@
 - Array Game-1(Leap Game) [HackerRank problem](https://www.hackerrank.com/challenges/java-1d-array/problem)
 - Array Rotation (Left & Right)
 
+---
+
 ### Stacks
 
 - Linear Stack (Using array) {Push, Pop, Display, IsEmpty, IsFull}
 
+---
+
 ### Queues
 
 - Linear Queue (Using array) {Insert, Remove, Display, IsEmpty, IsFull}
+
+---
 
 ### Sorting
 
@@ -29,8 +35,12 @@
 - Merge Sort (Recursive)
 - Quick Sort (Recursive)
 
+---
+
 ### Linked List
 
 - Linked List (Finding the nth-node from the end of the list)
 - Two Linked List Problem(Find pairs from two linked Lists, sum of which is equal to given number)
 - Merge two pre-sorted linked lists
+
+---
