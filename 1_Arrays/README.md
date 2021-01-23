@@ -7,3 +7,4 @@
 - Array Game-1(Leap Game) [HackerRank problem](https://www.hackerrank.com/challenges/java-1d-array/problem)
 - Array Rotation (Left & Right)
 - Array Rotation by Reversal (Left & Right)
+- Calculate the maximum possible value of sum(i\*arr[i]) of an array which can be rotated
