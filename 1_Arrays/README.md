@@ -9,3 +9,4 @@
 - Array Rotation by Reversal (Left & Right)
 - Calculate the maximum possible value of sum(i\*arr[i]) of an array which can be rotated
 - Rotation Count in Rotated Sorted array
+- Print out multiple left rotations of a given array
